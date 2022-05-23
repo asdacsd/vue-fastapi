@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音乐数据可视化分析</title>
+    <link rel="icon" type="image/x-icon" href='static/img/favicon.ico' />
+    <link rel="stylesheet" type="text/css" href=static/css/index.css />
+</head>
+<body>
+<div class="boss">
+    <section class="mainbox">
+        <div class="column">
+            <div class="panel bar1">
+                <h2>最受欢迎的歌单类型TOP7</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel bar2">
+                <h2>最受欢迎的歌单TOP5</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel pie1">
+                <h2>歌单歌曲数量范围</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="no">
+                <div class="no-hd">
+                    <ul>
+                        <li>123000</li>
+                        <li>132000</li>
+                    </ul>
+                </div>
+
+                <div class="no-bd">
+                    <ul>
+                        <li>男生创建歌单数</li>
+                        <li>女生创建歌单数</li>
+                    </ul>
+                </div>
+
+                <div class="map">
+                    <div class="chart"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="panel line1">
+                <h2>歌单分享量和评论数变化 <a href="javascript:;">2019</a><a href="javascript:;">2020</a></h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel line2">
+                <h2>歌单收藏量变化</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+
+            <div class="panel pie2">
+                <h2>语种类型歌单播放量</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+    <script src='static/js/flexible.js'></script>
+    <script src='static/js/echarts.min.js'></script>
+    <script src='static/js/jquery.js'></script>
+    <script src='static/js/china.js'></script>
+    <script src='static/js/index.js'></script>
+<style>
+    .boss{
+        margin-top: 6%;
+    }
+</style>
+</html>
