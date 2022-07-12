@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcloudmusic"]=self["webpackChunkcloudmusic"]||[]).push([[477],{8477:function(t,e,o){o.r(e),o.d(e,{default:function(){return l}});var n=o(7139),s=o(4870),c=o(3396),u={setup(t){function e(){const t=(0,c.FN)(),e=t.appContext.config.globalProperties.$cookies,o=()=>{let t=e.get("token");return console.log("ttokenss",t),t};return(0,c.bv)((()=>{console.log("挂在全局的方法",e),e.set("token","7777777788888888","1M")})),o}const o=e();return(t,e)=>(0,n.zw)((0,s.SU)(o)())}};const r=u;var l=r}}]);
+//# sourceMappingURL=477.6092306f.js.map

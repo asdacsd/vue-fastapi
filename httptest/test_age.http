@@ -1,0 +1,2 @@
+###
+GET http://httpbin.org/anything?id={{$uuid}}&ts={{$timestamp}}&sign={{$randomInt}}&name={{name}}{{age}}
